@@ -1,7 +1,7 @@
 {
       "name": "cv",
       "version": "0.1.0",
-      "homepage": "https://naolgithub.github.io",
+      "homepage": "https://naolgithub.github.io/elna",
       "private": true,
       "dependencies": {
             "@react-pdf/renderer": "^2.2.0",
@@ -29,7 +29,7 @@
             "test": "react-scripts test",
             "eject": "react-scripts eject",
             "predeploy": "npm run build",
-            "deploy": "gh-pages -d build -f"
+            "deploy": "gh-pages -d build"
       },
       "eslintConfig": {
             "extends": [
@@ -50,6 +50,6 @@
             ]
       },
       "devDependencies": {
-            "gh-pages": "^5.0.0"
+            "gh-pages": "^6.1.1"
       }
 }
